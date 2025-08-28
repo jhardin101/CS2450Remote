@@ -4,21 +4,26 @@ import random
 def AgeGuesser():
     print("I'm going to guess your age!")
     name = input("What is your name? ")
-    guessed_age = random.randint(15,30)
-    answer = input(f"Is your age {guessed_age} ?")
+    
     success = False
     while not success:
-        if answer == "Y" or "y":
+        guessed_age = random.randint(15,30)
+        answer = input(f"Is your age {guessed_age} ? (y/n):")
+
+        if answer == "y" or answer == "Y":
             print(name + f" is {guessed_age} years old.")
             success = True
-        else:
+            return True
+        elif answer == 'n' or answer == 'N':
             print ("Rats!")
-    return 0
+
+        else:
+            print('Please say y or n.')
+
 
 def main():
     AgeGuesser()
     return 0
 
-if "name" == '__main__':
-    main()
+main()
     
