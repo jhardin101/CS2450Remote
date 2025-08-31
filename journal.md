@@ -1,0 +1,1 @@
+8/31/25: Subject: first entry--Today I finished up the assignments for connecting to the git repo.
