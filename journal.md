@@ -11,3 +11,5 @@
 10/31/2025: Subject: Another week down -- Seems I've missed a week or two with the journal, so here's hoping I remember to keep it up! About to get started on my C assignment this week, happy halloween!
 
 11/7/2025: Subject: selenium troubles -- Because of how selenium is misbehaving for me, going to write my tests and have a teammember whose tests work run on their machine. Hopefully that will work!
+
+11/7/2025: Subject: RSA/Docker -- finished my RSA assignment for CS 2100. My troubles turned out to be caused by reading the wrong input into my change of base function, and with that fixed I was able to decrypt the message Bart sent. However, the version of the website on Docker seems to no longer be working, so I'll have to see that.
